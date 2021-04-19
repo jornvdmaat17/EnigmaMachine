@@ -1,0 +1,11 @@
+{
+    "rotors" : [
+        {"rotor": "R1", "start" : 1, "ring" : 3},
+        {"rotor": "R2", "start" : 1, "ring" : 2},
+        {"rotor": "R3", "start" : 1, "ring" : 2}
+    ],
+    "reflector" : "RB",
+    "wires" : [
+       
+    ]
+}
