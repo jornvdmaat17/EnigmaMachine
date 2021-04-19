@@ -32,7 +32,7 @@ class Rotor:
             ringIndex += 1
             for j in range(0,26):
                 self.mapsTo[j] = next_alpha(self.mapsTo[j])
-        while ringIndex != findIndexInList(self.mapsTo, alphabet[ring - 1]):
+        while ringIndex % 26 != findIndexInList(self.mapsTo, alphabet[ring - 1]):
             self.mapsTo.rotate(-1)
         
     def getLetter(self, index):
